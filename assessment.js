@@ -84,4 +84,3 @@ function sum(num1,num2){
 // CODE HERE
 function greeter(string,number){
   return "Hi! I'm " + string + " and I am " + number + " years old!";}
-}
