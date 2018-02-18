@@ -77,7 +77,7 @@ var responseCreator = function(param){
 
 // CODE HERE
 function sum(param1, param2){
-  return param+param2
+  return param1+param2;
   }
 
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
