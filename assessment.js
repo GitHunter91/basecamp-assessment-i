@@ -21,21 +21,23 @@ var me = "My name is " + myName + " and my favorite number is " + faveNum;
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum' that outputs true when comparing faveNum to your favorite number.
 
 // CODE HERE
-var trueFaveNum = function(num){
+var trueFaveNum = function(num){ 
   if (num === faveNum){
- return true;
- }
-  else{
- return false;
- }
- }
+  return true;
+  }
+  else {
+  return false;
+  }
+  }
 
 // #6 Create a new variable called notHakeem using the previously created myName variable, test that your name DOES NOT equal 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
 // CODE HERE
 var notHakeem = myName;
-if (myName != 'Hakeem Olajuwon'){
-console.log(true);}
+if (myName !== 'Hakeem Olajuwon'){
+  if (myName == 'Hunter Sexton'){
+    console.log(true);}
+  }
 else if (myName =='Hakeem Olajuwon') {
 console.log(false);
 }
@@ -77,6 +79,7 @@ var responseCreator = function(param){
 // CODE HERE
 function sum(num1,num2){
   return num1+num2;
+  console.log(sum);
   }
 
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
