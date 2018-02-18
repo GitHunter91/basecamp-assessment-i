@@ -16,13 +16,13 @@ var lovesCode = true;
 // #4 Using the previously created variables, create a new variable called 'me' that combines the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
 // CODE HERE
-var me = "My name is" + myName + "and my favorite number is" + faveNum;
+var me = "My name is " + myName + " and my favorite number is " + faveNum;
 
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum' that outputs true when comparing faveNum to your favorite number.
 
 // CODE HERE
 var trueFaveNum = function(faveNum){
-  if (faveNum == 7){
+  if (trueFaveNum == faveNum){
  return true;
  }
   else{
@@ -35,9 +35,9 @@ var trueFaveNum = function(faveNum){
 // CODE HERE
 var notHakeem = myName;
 if (myName != "Hakeem Olajuwon"){
-console.log("My Name is NOT Hakeem Olajuwon");}
+console.log(true);}
 else {
-console.log("I am Hakeem Olajuwon");
+console.log(false);
 }
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
@@ -59,7 +59,7 @@ var colorResponse;
 var responseCreator = function(param){
   // CODE HERE
   if(param == 'green'){
-    colorResponse = "That color is Okay";
+    colorResponse = "Green is okay";
 }
   else if(param == 'red'){
     colorResponse = "I heart red";
@@ -76,11 +76,11 @@ var responseCreator = function(param){
 
 // CODE HERE
 function sum(num1,num2){
-  return num1 + num2;
+  return num1+num2;
   }
 
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
 
 // CODE HERE
 function greeter(string,number){
-  return "Hi! I'm " + string + " and I am " + number + " years old!";}
+  return "Hi! I am " + string + " and I am " + number + " years old";}
