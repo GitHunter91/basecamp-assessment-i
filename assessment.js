@@ -34,7 +34,7 @@ var trueFaveNum = function(num){
 
 // CODE HERE
 var notHakeem = myName;
-if (myName == 'Hunter Sexton'){
+if (myName != 'Hakeem Olajuwon'){
 console.log(true);}
 else if (myName =='Hakeem Olajuwon') {
 console.log(false);
