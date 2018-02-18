@@ -33,13 +33,13 @@ var trueFaveNum = function(num){
 // #6 Create a new variable called notHakeem using the previously created myName variable, test that your name DOES NOT equal 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
 // CODE HERE
-var notHakeem = myName;
+var notHakeem;
 if (myName !== 'Hakeem Olajuwon'){
   if (myName == 'Hunter Sexton'){
-    console.log(true);}
+    notHakeem = true;
   }
 else if (myName =='Hakeem Olajuwon') {
-console.log(false);
+    notHakeem = false;
 }
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
@@ -77,8 +77,8 @@ var responseCreator = function(param){
 // #9 Create a function called 'sum' that takes in a parameter and returns the sum of that parameter.
 
 // CODE HERE
-function sum(num1,num2){
-  return num1+num2;
+function sum(param1,param2){
+  return param+param2;
   console.log(sum);
   }
 
