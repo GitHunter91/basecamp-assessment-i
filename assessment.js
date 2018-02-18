@@ -34,11 +34,10 @@ var trueFaveNum = function(num){
 
 // CODE HERE
 var notHakeem;
-if (myName !== 'Hakeem Olajuwon'){
-  if (myName == 'Hunter Sexton'){
+if (myName != 'Hakeem Olajuwon') {
     notHakeem = true;
-  }
-else if (myName =='Hakeem Olajuwon') {
+}
+else {
     notHakeem = false;
 }
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
@@ -77,9 +76,8 @@ var responseCreator = function(param){
 // #9 Create a function called 'sum' that takes in a parameter and returns the sum of that parameter.
 
 // CODE HERE
-function sum(param1,param2){
-  return param+param2;
-  console.log(sum);
+function sum(param1, param2){
+  return param+param2
   }
 
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
