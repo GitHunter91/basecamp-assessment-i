@@ -21,8 +21,8 @@ var me = "My name is " + myName + " and my favorite number is " + faveNum;
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum' that outputs true when comparing faveNum to your favorite number.
 
 // CODE HERE
-var trueFaveNum = function(faveNum){
-  if (trueFaveNum == faveNum){
+var trueFaveNum = function(num){
+  if (num === faveNum){
  return true;
  }
   else{
@@ -34,9 +34,9 @@ var trueFaveNum = function(faveNum){
 
 // CODE HERE
 var notHakeem = myName;
-if (myName != "Hakeem Olajuwon"){
+if (myName == 'Hunter Sexton'){
 console.log(true);}
-else {
+else if (myName =='Hakeem Olajuwon') {
 console.log(false);
 }
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
